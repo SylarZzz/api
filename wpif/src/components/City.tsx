@@ -21,10 +21,10 @@ function City() {
     } ,[]);
 
     if (response) {
-        return (<h1> My city {JSON.stringify(response)} </h1>);
+        return (<h1> Bye {JSON.stringify(response)} </h1>);
     }
     else {
-        return (<h1> My city </h1>);
+        return (<h1> Bye </h1>);
     }
 
   }
