@@ -1,0 +1,6 @@
+@wpib_HostAddress = http://localhost:5092
+
+GET {{wpib_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
